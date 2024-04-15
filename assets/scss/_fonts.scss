@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Conquera";
+  font-weight: 500;
+  src: url("~/assets/fonts/Conquera-Medium.ttf");
+}
+@font-face {
+  font-family: "Pitch";
+  font-weight: 600;
+  src: url("~/assets/fonts/pitch-sans-semibold.otf");
+}
+
+$font-conquera: "Conquera";
+$font-pitch: "Pitch";
+
+@mixin conquera {
+  font-family: $font-conquera;
+  font-weight: 500;
+}
+@mixin pitch {
+  font-family: $font-pitch;
+  font-weight: 600;
+}
