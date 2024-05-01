@@ -1,3 +1,8 @@
 <template>
-  <div></div>
+  <div>
+    <MainPageDescription />
+    <MainPageAirBlock />
+    <MainPageOneOnlyBlock />
+    <MainPageCleaningHealthSafety />
+  </div>
 </template>

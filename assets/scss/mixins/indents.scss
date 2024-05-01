@@ -1,0 +1,17 @@
+@mixin sideIndents {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  @include miniDesktop {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  @include invertTablet {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  @include phone {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

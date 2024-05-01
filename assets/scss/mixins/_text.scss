@@ -1,0 +1,52 @@
+@mixin miniText {
+  @include pitch;
+  color: $white;
+
+  font-size: 15px;
+  line-height: 130%;
+  letter-spacing: -0.07em;
+  margin: 0;
+
+  @include miniDesktop {
+    font-size: 12px;
+  }
+  @include invertTablet {
+    font-size: 11px;
+  }
+}
+@mixin blockHeadline {
+  @include conquera;
+  color: $white;
+
+  font-size: 25px;
+  line-height: 100%;
+  margin: 0;
+
+  @include miniDesktop {
+    font-size: 20px;
+  }
+  @include tablet {
+    font-size: 16px;
+  }
+  @include invertTablet {
+    font-size: 14px;
+  }
+  @include invertPhone {
+    font-size: 12px;
+  }
+}
+@mixin miniBlockHeadline {
+  @include conquera;
+  color: $white;
+
+  font-size: 13px;
+  line-height: 100%;
+  margin: 0;
+
+  @include miniDesktop {
+    font-size: 10px;
+  }
+}
+@mixin mainHeadline {
+  @include conquera;
+}

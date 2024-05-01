@@ -1,2 +1,9 @@
 @import "~/assets/scss/fonts.scss";
-@import "~/assets/scss/main.scss";
+@import "~/assets/scss/mixins/text.scss";
+@import "~/assets/scss/mixins/background.scss";
+@import "~/assets/scss/mixins/border.scss";
+@import "~/assets/scss/mixins/color.scss";
+@import "~/assets/scss/mixins/medias.scss";
+@import "~/assets/scss/mixins/buttons.scss";
+@import "~/assets/scss/mixins/indents.scss";
+@import "~/assets/scss/flex.scss";
